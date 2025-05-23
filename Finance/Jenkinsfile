@@ -10,7 +10,9 @@ steps{
 }
 stage('test'){
  steps{
-    bat "mvn -Dmaven.test.failure.ignore=true clean package"
+    bat "mvn -v"
+    //bat "mvn -Dmaven.test.failure.ignore=true clean package"
+    bat "mvn clean package"
   }
 }
 }
