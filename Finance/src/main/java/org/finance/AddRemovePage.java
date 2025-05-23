@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class AddRemove {
+public class AddRemovePage {
 
     private WebDriver driver;
 
@@ -22,7 +22,7 @@ public class AddRemove {
     @FindBy(xpath = "//div[@id='elements']/button")
     private WebElement deleteElement;
 
-    public AddRemove(WebDriver driver) {
+    public AddRemovePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
 

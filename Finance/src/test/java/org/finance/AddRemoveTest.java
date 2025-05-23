@@ -7,7 +7,7 @@ public class AddRemoveTest extends BaseTest {
 
     @Test
     public void addRemoveTest() {
-        AddRemove AddRemove = new AddRemove(driver);
+        AddRemovePage AddRemove = new AddRemovePage(driver);
         AddRemove.clickAddRemove();
         AddRemove.clickAddElement();
         AddRemove.clickDeleteElement();
