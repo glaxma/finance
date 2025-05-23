@@ -27,8 +27,7 @@ public class BrokenImagesPage {
     }
 
     public void getBrokenImageCount() {
-        long images = brokenImageCount.size();
-        System.out.println("Number of broken images: " + images);
+        System.out.println("Number of broken images: " + brokenImageCount.size());
     }
 
 }
